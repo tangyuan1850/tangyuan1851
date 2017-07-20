@@ -4,17 +4,23 @@
   "description": "selenium test case",
   "main": "index.js",
   "scripts": {
+    "123": "./node_modules/.bin/mocha 20170719 --reporter mochawesome --reporter-options reportDir=reporter,reportFilename=02.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "chromedriver": "^2.29.2",
+    "chai": "^4.0.2",
+    "chromedriver": "^2.30.1",
     "cucumber": "^2.3.1",
     "express": "^4.15.3",
-    "geckodriver": "^1.7.0"
+    "geckodriver": "^1.7.0",
+    "js-yaml": "^3.8.4",
+    "selenium": "^2.20.0"
   },
   "devDependencies": {
+    "mocha": "^3.4.2",
+    "mochawesome": "^2.3.0",
     "selenium-webdriver": "^3.4.0"
   }
 }
